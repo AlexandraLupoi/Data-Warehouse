@@ -1,7 +1,5 @@
-PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/Facultate/Master - An 2/I Data Warehousig &amp; Business Intelligence/Proiect/usbwebserver\\php\\ext\\php_curl.dll' - %1 is not a valid Win32 application.\r\n in Unknown on line 0
-[Sun Jan 16 20:39:48.240292 2022] [mpm_winnt:notice] [pid 17512:tid 740] AH00455: Apache/2.4.29 (Win32) PHP/7.1.11 configured -- resuming normal operations
-[Sun Jan 16 20:39:48.241293 2022] [mpm_winnt:notice] [pid 17512:tid 740] AH00456: Server built: Nov  3 2017 01:01:54
-[Sun Jan 16 20:39:48.241293 2022] [core:notice] [pid 17512:tid 740] AH00094: Command line: 'D:\\Facultate\\Master - An 2\\I Data Warehousig & Business Intelligence\\Proiect\\usbwebserver/apache2/bin/httpd_usbwv8.exe -d D:/Facultate/Master - An 2/I Data Warehousig & Business Intelligence/Proiect/usbwebserver/apache2'
-[Sun Jan 16 20:39:48.255293 2022] [mpm_winnt:notice] [pid 17512:tid 740] AH00418: Parent: Created child process 12612
-PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/Facultate/Master - An 2/I Data Warehousig &amp; Business Intelligence/Proiect/usbwebserver\\php\\ext\\php_curl.dll' - %1 is not a valid Win32 application.\r\n in Unknown on line 0
-[Sun Jan 16 20:39:49.613048 2022] [mpm_winnt:notice] [pid 12612:tid 708] AH00354: Child: Starting 64 worker threads.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/Facultate/Master - An 2/I Data Warehousig &amp; Business Intelligence/Proiect/DataWarehouse/usbwebserver\\php\\ext\\php_curl.dll' - %1 is not a valid Win32 application.\r\n in Unknown on line 0
+[Thu Jan 27 19:30:06.554363 2022] [mpm_winnt:notice] [pid 19284:tid 760] AH00455: Apache/2.4.29 (Win32) PHP/7.1.11 configured -- resuming normal operations
+[Thu Jan 27 19:30:06.554363 2022] [mpm_winnt:notice] [pid 19284:tid 760] AH00456: Server built: Nov  3 2017 01:01:54
+[Thu Jan 27 19:30:06.554363 2022] [core:notice] [pid 19284:tid 760] AH00094: Command line: 'D:\\Facultate\\Master - An 2\\I Data Warehousig & Business Intelligence\\Proiect\\DataWarehouse\\usbwebserver/apache2/bin/httpd_usbwv8.exe -d D:/Facultate/Master - An 2/I Data Warehousig & Business Intelligence/Proiect/DataWarehouse/usbwebserver/apache2'
+[Thu Jan 27 19:30:06.573363 2022] [mpm_winnt:notice] [pid 19284:tid 760] AH00418: Parent: Created child process 60
