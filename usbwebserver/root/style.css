@@ -1,34 +1,4 @@
-<<<<<<< Updated upstream
-body, html {
-	margin: 0px;
-	padding: 0px;
-	background: #ffffff;
-}
-
-/* PHP info styling */
-pre {margin: 0px; font-family: monospace;}
-a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
-a:hover {text-decoration: underline;}
-table {border-collapse: collapse;}
-.center {text-align: center;}
-.center table { margin-left: auto; margin-right: auto; text-align: left;}
-.center th { text-align: center !important; }
-td, th { border: 1px solid #000000; font-size: 75%; vertical-align: baseline;}
-h1 {font-size: 150%; color:white;}
-h2 {font-size: 125%;}
-.p {text-align: left; display:none}
-.e { font-weight: bold; color: #000000;}
-.h {font-weight: bold; color: white;}
-.v {word-break:break-all; color: #000000;}
-.vr {background-color: #cccccc; text-align: right; color: #000000;}
-.h img{	display:none;}
-.h { background-color: #2D649C; color:white; }
-hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}
-
-			
-=======
-*
-{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -40,8 +10,7 @@ body {
 	font-family: sans-serif;
 }
 
-.menu-bar
-{
+.menu-bar {
 	background-color: orange;
 	text-align: center;
 }
@@ -54,17 +23,16 @@ body {
 
 .menu-bar ul li {
 	width: 120px;
-	margin: 15px;
-	padding: 15px;
+	margin-top: 15px;
 	font-size: 20px;
 }
 
-.menu-bar ul li a{
+.menu-bar ul li a {
 	text-decoration: none;
 	color: white;
 }
 
-.active, .menu-bar ul li:hover{
+.active, .menu-bar ul li:hover {
 	text-decoration: underline;
 	border-radius: 2px;
 }
@@ -81,22 +49,26 @@ header {
 	align-items: center;
 	justify-content: center;
 }
+
 header > h1 {
 	width: calc(100% - 160px);
 	text-align: center;
 	font-size: 20px;
 	color: white;
 }
+
 header > .top {
 	position: absolute;
 	left: 20px;
 }
+
 header > .top a.menu_icon i {
 	color: #000;
 	font-size: 40px;
 	padding-top: 5px;
 	transition: .2s ease;
 }
+
 header > .top a.menu_icon:hover i {
 	color: #fff;
 }
@@ -114,6 +86,7 @@ nav.menu {
     z-index: -1;
 	width: 12%;
 }
+
 nav.menu > a {
     display: block;
     padding: 5px;
@@ -121,6 +94,7 @@ nav.menu > a {
     color: #494949;
     text-transform: uppercase;
 }
+
 .menu_show {
 	display: flex !important;
 }
@@ -159,15 +133,15 @@ nav.menu > a {
 	-ms-user-select: none;
 	user-select: none;
 	color: white;
-  }
+}
   
-  .container input {
+.container input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
 	height: 0;
 	width: 0;
-  }
+}
 
 .checkmark {
 	position: absolute;
@@ -176,27 +150,27 @@ nav.menu > a {
 	height: 22px;
 	width: 22px;
 	background-color: #eee;
-  }
+}
   
-  .container:hover input ~ .checkmark {
+.container:hover input ~ .checkmark {
 	background-color: #ccc;
-  }
+}
   
-  .container input:checked ~ .checkmark {
+.container input:checked ~ .checkmark {
 	background-color: #abbecd;
-  }
+}
   
-  .checkmark:after {
+.checkmark:after {
 	content: "";
 	position: absolute;
 	display: none;
-  }
+}
   
-  .container input:checked ~ .checkmark:after {
+.container input:checked ~ .checkmark:after {
 	display: block;
-  }
+}
   
-  .container .checkmark:after {
+.container .checkmark:after {
 	left: 9px;
 	top: 5px;
 	width: 5px;
@@ -206,30 +180,24 @@ nav.menu > a {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-  }
+}
 
-  .listcontainer{
-  height: fit-content;
-  position: inherit;
-  top: 23%;
-  width: 100%;
-  }
+.listcontainer {
+	height: fit-content;
+	position: inherit;
+	top: 23%;
+	width: 100%;
+}
 
-  .bestSellerContainer {
-	  margin-top: 7%;
-  }
+.bestSellerContainer {
+	margin-top: 7%;
+}
 
-  .col-lg-2{
+.col-lg-2 {
 	background: white;
     height: 250px;
     width: 250px;
 	border: 1px solid;
-}
-
-.col-lg-2{
-	background: white;
-	border: 1px solid;
-    width: 250px;
 }
 
 .imageBook {
@@ -240,4 +208,35 @@ nav.menu > a {
 	height: inherit;
     width: -webkit-fill-available;
 }
->>>>>>> Stashed changes
+
+.price {
+	color: grey;
+	font-size: 18px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 150px;
+	margin: auto;
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+	height: 100px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+  
+.card button:hover {
+	opacity: 0.7;
+}
