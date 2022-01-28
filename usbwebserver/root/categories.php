@@ -1,5 +1,6 @@
 <html>
-    <title>Library</title>
+    <head>
+        <title>Library</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

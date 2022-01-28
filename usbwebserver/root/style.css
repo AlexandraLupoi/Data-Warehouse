@@ -32,8 +32,7 @@ body {
 	color: white;
 }
 
-.active, .menu-bar ul li:hover {
-	text-decoration: underline;
+.menu-bar ul li:hover {
 	border-radius: 2px;
 }
 
@@ -93,6 +92,10 @@ nav.menu > a {
     margin: 15px 0 0px 20px;
     color: #494949;
     text-transform: uppercase;
+}
+
+.navtop li i:hover, .navtop li button:hover {
+	cursor: pointer;
 }
 
 .menu_show {
@@ -190,7 +193,7 @@ nav.menu > a {
 }
 
 .bestSellerContainer {
-	margin-top: 7%;
+	margin-top: 20px;
 }
 
 .col-lg-2 {

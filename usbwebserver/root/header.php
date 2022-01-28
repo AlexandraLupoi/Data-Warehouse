@@ -22,13 +22,15 @@
             </label>
             </div>
         </nav>
-            <ul>
+            <ul class="navtop">
              <!--<li><div class="top">
 			        <a href="#" class="menu_icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 		        </div></li>-->
-                <li class="active" id="homeBtn"><i class="fa fa-home" aria-hidden="true"></i><a href="index.php">Home</a></li>
-                <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="#">Cart</a></li>
+                <li id="homeBtn"><i class="fa fa-home" aria-hidden="true" onClick="document.location.href='index.php';"></i></li>
+                <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                <img src="images/logo.svg" alt="Logo" style="width: 60px; height: 60px; margin-bottom: -15px; "/>
                 <li><button class="btn btn-primary" type="button" name="login" id="login" data-toggle="modal" data-target="#loginModal">Login</button></li>
+                <li><i class="fa fa-user" onClick="document.location.href='profile.php';"></i></li>
             </ul>
         </div>
     </body>
