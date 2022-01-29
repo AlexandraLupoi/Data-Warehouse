@@ -74,7 +74,7 @@
             <input type="password" id="defaultForm-pass" class="form-control validate">
         </div>
         <div class="modal-footer d-flex justify-content-center">
-             <button class="btn btn-success">Login</button>
+             <button class="btn btn-primary">Login</button>
             <a id="registerRedirect" style="color: #007bff;text-decoration: underline;position: absolute;margin-top: 23%;cursor: pointer;">Looking to create an account?</a>
          </div>
     </div>
