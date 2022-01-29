@@ -91,12 +91,12 @@
             </button>
         </div>
         <div class="md-form mb-5" style="margin-top: 35px;">
-            <i class="fas fa-envelope prefix grey-text"></i>
+            <i class="fas fa-user"></i>
             <label data-error="wrong" data-success="right" for="first-name">First Name</label>
             <input type="name" id="firstNameId" class="form-control validate">
         </div>
         <div class="md-form mb-5">
-            <i class="fas fa-envelope prefix grey-text"></i>
+            <i class="fas fa-user"></i>
             <label data-error="wrong" data-success="right" for="last-name">Last Name</label>
             <input type="name" id="lastNameId" class="form-control validate">
         </div>
