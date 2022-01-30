@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="menu-bar">
-        <nav class="menu">
+        <nav class="menu" id="categoryList">
             <a id=titleCategories class="item_menu">CATEGORIES</a>
             <div class="listcontainer">
             <label class="container">Fiction
@@ -42,7 +42,7 @@
                 </div></li>-->
                 <li id="homeBtn"><i class="fa fa-home" aria-hidden="true" onClick="document.location.href='index.php';"></i></li>
                 <img src="images/logo.svg" alt="Logo" style="width: 60px; height: 60px; margin-bottom: -15px; "/>
-                <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                <li><i class="fa fa-shopping-cart" aria-hidden="true" onClick="document.location.href=\'cart.php\'"></i></li>
                 <?php
                     if(isset($_SESSION['customer_id'])) {
                         echo '<li><i class="fa fa-user" onClick="document.location.href=\'profile.php\';"></i></li>';
