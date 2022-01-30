@@ -289,3 +289,22 @@ nav.menu > a {
     height: 81%;
     border-radius: 20px;
   }
+
+  .scrollit {
+    overflow-y: scroll;
+    height: 26vh;
+
+}
+
+.table .thead-light th {
+    background-color: #007bff;
+    border-color: #dee2e6;
+    color: white;
+}
+
+hr{
+    width: 22%;
+    float: right;
+    margin-right: 76%;
+    margin-top: 3%;
+   }
