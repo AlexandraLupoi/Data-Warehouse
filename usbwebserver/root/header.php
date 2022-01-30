@@ -54,6 +54,68 @@
         </div>
     </body>
 </html>
+<!-- The LOGIN Modal -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="md-form mb-5" style="margin-top: 35px;">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="defaultForm-email">Email</label>
+            <input type="email" id="defaultForm-email" class="form-control validate">
+        </div>
+        <div class="md-form mb-4">
+            <i class="fas fa-lock prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+            <input type="password" id="defaultForm-pass" class="form-control validate">
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+             <button class="btn btn-primary">Login</button>
+            <a id="registerRedirect" style="color: #007bff;text-decoration: underline;position: absolute;margin-top: 23%;cursor: pointer;">Looking to create an account?</a>
+         </div>
+    </div>
+</div>
+<!-- The LOGIN Modal stop -->
+
+<!-- The SIGN UP Modal -->
+<div id="signupModal" class="modal">
+    <div class="modal-content" id="signupModalContent">
+        <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="md-form mb-5" style="margin-top: 35px;">
+            <i class="fas fa-user"></i>
+            <label data-error="wrong" data-success="right" for="first-name">First Name</label>
+            <input type="name" id="firstNameId" class="form-control validate">
+        </div>
+        <div class="md-form mb-5">
+            <i class="fas fa-user"></i>
+            <label data-error="wrong" data-success="right" for="last-name">Last Name</label>
+            <input type="name" id="lastNameId" class="form-control validate">
+        </div>
+        <div class="md-form mb-5">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="email">Email</label>
+            <input type="email" id="email" class="form-control validate">
+        </div>
+        <div class="md-form mb-4">
+            <i class="fas fa-lock prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="pass">Password</label>
+            <input type="password" id="pass" class="form-control validate">
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+             <button style="background-color: orange;color: white;" class="btn btn-deep-orange">Sign Up</button>
+         </div>
+    </div>
+</div>
+<!-- The SIGN UP Modal stop -->
 
 <script>
 //    $(document).ready(function() {
@@ -62,13 +124,35 @@
 //	});
 //});
 
-$(function(){
-     $(".btn-primary").click(function(){
-     
-          //document.getElementById('loginModal').style.display = "block";
-          //$('#loginModal').modal('show');
-     })
-})
+//LOGIN MODAL
+var modal = document.getElementById("loginModal");
+var modal2 = document.getElementById("signupModal");
+var btn = document.getElementById("login");
+var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close")[1];
+var link = document.getElementById("registerRedirect");
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+  modal2.style.display = "none";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+link.onclick = function() {
+    modal.style.display = "none";
+    modal2.style.display = "block";
+}
+//FINISH LOGIN MODAL
+
 //LOGIN/LOGOUT - https://www.webslesson.info/2016/11/make-login-form-by-using-bootstrap-modal-with-php-ajax-jquery.html
 
 </script>

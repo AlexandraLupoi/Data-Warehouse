@@ -197,3 +197,52 @@ Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-01-27 19:30:06 15228 [Note] Event Scheduler: Loaded 0 events
 2022-01-27 19:30:06 15228 [Note] D:\Facultate\Master - An 2\I Data Warehousig & Business Intelligence\Proiect\DataWarehouse\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
 Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-01-29 18:14:50 8812 [Note] Plugin 'FEDERATED' is disabled.
+2022-01-29 18:14:50 8812 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-01-29 18:14:50 8812 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-01-29 18:14:50 8812 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-29 18:14:50 8812 [Note] InnoDB: Memory barrier is not used
+2022-01-29 18:14:50 8812 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-01-29 18:14:50 8812 [Note] InnoDB: Not using CPU crc32 instructions
+2022-01-29 18:14:50 8812 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-01-29 18:14:50 8812 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-29 18:14:52 8812 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-29 18:14:52 8812 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 2753934 in the ib_logfiles!
+2022-01-29 18:14:52 8812 [Note] InnoDB: Database was not shutdown normally!
+2022-01-29 18:14:52 8812 [Note] InnoDB: Starting crash recovery.
+2022-01-29 18:14:52 8812 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-01-29 18:14:54 8812 [Note] InnoDB: Restoring possible half-written data pages 
+2022-01-29 18:14:54 8812 [Note] InnoDB: from the doublewrite buffer...
+2022-01-29 18:14:56 8812 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-01-29 18:14:56 8812 [Note] InnoDB: Waiting for purge to start
+2022-01-29 18:14:56 8812 [Note] InnoDB: Waiting for purge to start
+2022-01-29 18:14:56 8812 [Note] InnoDB: Waiting for purge to start
+2022-01-29 18:14:56 8812 [Note] InnoDB: Waiting for purge to start
+2022-01-29 18:14:56 8812 [Note] InnoDB: 5.6.34 started; log sequence number 2753934
+2022-01-29 18:14:56 8812 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-01-29 18:14:56 8812 [Note] IPv6 is available.
+2022-01-29 18:14:56 8812 [Note]   - '::' resolves to '::';
+2022-01-29 18:14:56 8812 [Note] Server socket created on IP: '::'.
+2022-01-30 10:18:43 20968 [Note] Plugin 'FEDERATED' is disabled.
+2022-01-30 10:18:43 20968 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-01-30 10:18:43 20968 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-01-30 10:18:43 20968 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-01-30 10:18:43 20968 [Note] InnoDB: Memory barrier is not used
+2022-01-30 10:18:43 20968 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-01-30 10:18:44 20968 [Note] InnoDB: Not using CPU crc32 instructions
+2022-01-30 10:18:44 20968 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-01-30 10:18:44 20968 [Note] InnoDB: Completed initialization of buffer pool
+2022-01-30 10:18:45 20968 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-01-30 10:18:45 20968 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 2948653 in the ib_logfiles!
+2022-01-30 10:18:45 20968 [Note] InnoDB: Database was not shutdown normally!
+2022-01-30 10:18:46 20968 [Note] InnoDB: Starting crash recovery.
+2022-01-30 10:18:46 20968 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-01-30 10:18:49 20968 [Note] InnoDB: Restoring possible half-written data pages 
+2022-01-30 10:18:49 20968 [Note] InnoDB: from the doublewrite buffer...
+2022-01-30 10:18:49 20968 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-01-30 10:18:50 20968 [Note] InnoDB: Waiting for purge to start
+2022-01-30 10:18:50 20968 [Note] InnoDB: 5.6.34 started; log sequence number 2948653
+2022-01-30 10:18:50 20968 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-01-30 10:18:50 20968 [Note] IPv6 is available.
+2022-01-30 10:18:50 20968 [Note]   - '::' resolves to '::';
+2022-01-30 10:18:50 20968 [Note] Server socket created on IP: '::'.
