@@ -246,3 +246,6 @@ Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-01-30 10:18:50 20968 [Note] IPv6 is available.
 2022-01-30 10:18:50 20968 [Note]   - '::' resolves to '::';
 2022-01-30 10:18:50 20968 [Note] Server socket created on IP: '::'.
+2022-01-30 10:18:51 20968 [Note] Event Scheduler: Loaded 0 events
+2022-01-30 10:18:51 20968 [Note] D:\Facultate\Master - An 2\I Data Warehousig & Business Intelligence\Proiect\DataWarehouse\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
