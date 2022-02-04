@@ -4,7 +4,7 @@
 
         $category = $_POST['category'];
     ?>
-    <div class="container" style="color: black; margin: 30px 200px;">
+    <div class="container category" style="color: black; margin: 30px 270px;">
         <?php
             echo '<h4 class="text-center mb-4">' . $category . '</h4>';
         ?>

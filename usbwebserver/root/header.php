@@ -24,12 +24,12 @@
                         $result = mysqli_query($conn, $sql);
                         while($value = mysqli_fetch_array($result)) {
                             $genre = $value['genre'];
-                            echo '<label id="categ" class="container" style="margin-left: -10px; margin-bottom: 30px;">' . $genre . '</label>';
+                            echo '<label class="container categ" style="margin-left: -10px; margin-bottom: 30px;">' . $genre . '</label>';
                         }
                     ?>
                     <script>
                         $(document).ready(function () {
-                            $('#categ').on('click', function () {
+                            $('.categ').on('click', function () {
                                 $.ajax({
                                     url: 'categories.php',
                                     type: 'POST',
@@ -39,6 +39,7 @@
                                     success: function(html) {
                                         $('.bestSellerContainer').remove();
                                         $('.newsContainer').remove();
+                                        $('.category').remove();
                                         $('body').append(html);
                                     }
                                 });
